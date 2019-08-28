@@ -4882,10 +4882,10 @@ karma-cli@1.0.1:
   dependencies:
     resolve "^1.1.6"
 
-karma-coverage-istanbul-reporter@0.2.3:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/karma-coverage-istanbul-reporter/-/karma-coverage-istanbul-reporter-0.2.3.tgz#11f1be9cfa93755a77bac39ab16e315a7100b5c5"
-  integrity sha1-EfG+nPqTdVp3usOasW4xWnEAtcU=
+karma-coverage-istanbul-reporter@0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/karma-coverage-istanbul-reporter/-/karma-coverage-istanbul-reporter-0.3.1.tgz#ea90c452ec1c514d688a2def1be844487b2689a7"
+  integrity sha1-6pDEUuwcUU1oii3vG+hESHsmiac=
   dependencies:
     istanbul-api "^1.1.1"
 
