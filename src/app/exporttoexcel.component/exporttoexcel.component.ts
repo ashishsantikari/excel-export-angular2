@@ -1,5 +1,5 @@
 import { Component, ElementRef, Input, HostListener } from '@angular/core';
-//import * as XLSX from 'xlsx';
+import * as XLSX from 'xlsx';
 //declare var XLSX : any;
 //import 'script-loader!../../node_modules/xlsx/dist/xlsx.full.min.js';
 import * as FileSaver from 'file-saver';
@@ -35,7 +35,7 @@ export class ExporttoexcelComponent {
   }
 
   sheetName: string = "Test Sheet";
-  workbook: XLSX.IWorkBook = {
+  workbook: XLSX.WorkBook = {
     Sheets: {},
     SheetNames: [],
     Props: {}
